@@ -19,8 +19,21 @@
   <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-  <!-- Additional Styles -->
-  <link rel="stylesheet" type="text/css" href="noken-style.css">
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+    
+    body {
+        font-family: 'Titillium Web', sans-serif;
+    }        
+
+    .full-width-header .rs-header .logo-part img {
+        height: 100px;
+    }
+</style>
 
 </head>
 
@@ -131,7 +144,7 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
       <div class="breadcrumbs-img">
-        <img src="assets/images/slider/3.png" alt="Breadcrumbs Image">
+        <img src="assets/images/breadcrumbs/2.png" alt="Breadcrumbs Image">
       </div>
       <div class="breadcrumbs-text">
         <h1 class="page-title white-color">Destinations</h1>
@@ -140,162 +153,179 @@
         </div>
     </div>
     </div>
-    <div class="rs-newsletter style6 bg4 pt-100 pb-90 md-pt-70 md-pb-60">
-      <div class="container">
-        <div class="newsletter-wrap">
+    <div class="bg-success d-flex justify-content-center py-5">
+      <div class="row">
+          <div class="newsletter-wrap">
           <form class="newsletter-form">
-            <input type="email" id="email" name="email" required="">
-            <button type="search">Search</button>
+            <div class="container mt-4">
+              <div class="row justify-content-center">
+                  <div class="col-md-20">
+                      <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-btn">
+                          <div class="input-group-append">
+                              <button class="btn btn-primary" type="button" id="search-btn">Search</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
           </form>
         </div>
       </div>
-    </div>
+  </div>
 
-    <div class="container mt-4 d-flex justify-content-center">
-      <div class="row">
-        <div class="col">
-          <ul class="text-center">
-            <li>
-              <div class="col-lg-6">
-                <img src="assets/images/courses/main-home/1.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="col-lg-6">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h3>Bihewa Waterfall</h3>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <i class="flaticon-location"></i>
-                    Nabire
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <p>Description Here</p>
-                  </div>
-                </div>
-            </li>
-            <li>
-              <div class="col-lg-6">
-                <img src="assets/images/courses/main-home/1.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="col-lg-6">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h3>Base-G Beach</h3>
-                  </div>
-                  <div class="row mb-3">
-                    <div class="col">
-                      <i class="flaticon-location"></i>
-                      Jayapura
-                    </div>
-                  </div>
+    <div id="tour-packages" class="rs-popular-courses main-home event-bg pt-100 pb-100 md-pt-70 md-pb-70">
+      <div class="container py-5">
+          <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="courses-item">
                   <div class="row">
                     <div class="col">
-                      <p>Description Here</p>
+                      <div class="img-part">
+                          <a href="#"><img src="assets/images/tour-packages/2.png" class="w-100" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="content-part">
+                          <h3 class="title"><a href="#">Bihewa Waterfall</a></h3>
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i> Jayapura
+                          </p>
+                          <p class="description">
+                              Description Here
+                          </p>
+                      </div>
                     </div>
                   </div>
-            </li>
-            <li>
-              <div class="col-lg-6">
-                <img src="assets/images/courses/main-home/1.jpg" alt="Image" class="img-fluid">
               </div>
-              <div class="col-lg-6">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h3>Wasur National Park</h3>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <i class="flaticon-location"></i>
-                    Merauke
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <p>Description Here</p>
-                  </div>
-                </div>
-            </li>
+            </div>
+              <!-- .col end -->
 
-          </ul>
-        </div>
-        <div class="col">
-          <ul class="text-center">
-            <li>
-              <div class="col-lg-6">
-                <img src="assets/images/courses/main-home/1.jpg" alt="Image" class="img-fluid">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="courses-item">
+                  <div class="row">
+                    <div class="col">
+                      <div class="img-part">
+                          <a href="#"><img src="assets/images/tour-packages/2.png" class="w-100" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="content-part">
+                          <h3 class="title"><a href="#">Base-G Beach</a></h3>
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i> Merauke
+                          </p>
+                          <p class="description">
+                              Description Here
+                          </p>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              <div class="col-lg-6">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h3>Samares Blue Lake</h3>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <i class="flaticon-location"></i>
-                    Biak
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <p>Description Here</p>
-                  </div>
-                </div>
-            </li>
-            <li>
-              <div class="col-lg-6">
-                <img src="assets/images/courses/main-home/1.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="col-lg-6">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h3>Sawar Village</h3>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <i class="flaticon-location"></i>
-                    Sarmi
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <p>Description Here</p>
-                  </div>
-                </div>
-            </li>
-            <li>
-              <div class="col-lg-6">
-                <img src="assets/images/courses/main-home/1.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="col-lg-6">
-                <div class="row mb-3">
-                  <div class="col">
-                    <h3>Ambai Island</h3>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <i class="flaticon-location"></i>
-                    Serui
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <p>Description Here</p>
-                  </div>
-                </div>
-            </li>
+            </div>
+              <!-- .col end -->
 
-          </ul>
-        </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="courses-item">
+                  <div class="row">
+                    <div class="col">
+                      <div class="img-part">
+                          <a href="#"><img src="assets/images/tour-packages/2.png" class="w-100" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="content-part">
+                          <h3 class="title"><a href="#">Wasur National Park</a></h3>
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i> Biak
+                          </p>
+                          <p class="description">
+                              Description Here
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+              <!-- .col end -->
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="courses-item">
+                  <div class="row">
+                    <div class="col">
+                      <div class="img-part">
+                          <a href="#"><img src="assets/images/tour-packages/2.png" class="w-100" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="content-part">
+                          <h3 class="title"><a href="#">Samares Blue Lake</a></h3>
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i> Sarmi
+                          </p>
+                          <p class="description">
+                              Description Here
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+              <!-- .col end -->
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="courses-item">
+                  <div class="row">
+                    <div class="col">
+                      <div class="img-part">
+                          <a href="#"><img src="assets/images/tour-packages/2.png" class="w-100" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="content-part">
+                          <h3 class="title"><a href="#">Sawar Village</a></h3>
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i> Serui
+                          </p>
+                          <p class="description">
+                              Description Here
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+              <!-- .col end -->
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="courses-item">
+                  <div class="row">
+                    <div class="col">
+                      <div class="img-part">
+                          <a href="#"><img src="assets/images/tour-packages/2.png" class="w-100" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="content-part">
+                          <h3 class="title"><a href="#">Ambai Island</a></h3>
+                          <p class="location">
+                              <i class="fa fa-map-marker"></i> Nabire
+                          </p>
+                          <p class="description">
+                              Description Here
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+              <!-- .col end -->
+
+          </div>
+
       </div>
-    </div>
+  </div>
+    
    <!-- footer start -->
    <footer id="rs-footer" class="rs-footer pt-5" style="background-image: url('assets/images/cta/ct-bg.jpg');">
         
