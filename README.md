@@ -27,7 +27,10 @@ github pages: https://nokensoft.github.io/gotravpapua.nokensoft.web.id/
 ✅ section content : desain sesuai dengan wireframe di whimsical target="_blank">Whimsical </a> <br>
 
 ### Events
-🏷️ section breadcrumb : ubah ukuran gambar 1920px X 400px seperti pada bagian tour packages <br>
-🏷️ struktur div konten samakan dengan di index dan tour-packages <br>
-🏷️ section search : desain sesuai 'section content' pada bagian tour packages <br>
-🏷️ section content : desain sesuai dengan wireframe di whimsical <br>
+✅ section breadcrumb : ubah ukuran gambar 1920px X 400px seperti pada bagian tour packages <br>
+✅ struktur div konten samakan dengan di index dan tour-packages <br>
+✅ section search : desain sesuai 'section content' pada bagian tour packages <br>
+✅ section content : desain sesuai dengan wireframe di whimsical <br>
+
+### Contact
+✅ section breadcrumb : ubah sesuai dengan halaman lainnya
