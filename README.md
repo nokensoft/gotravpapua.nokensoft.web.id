@@ -34,3 +34,7 @@ github pages: https://nokensoft.github.io/gotravpapua.nokensoft.web.id/
 
 ### Contact
 ✅ section breadcrumb : ubah sesuai dengan halaman lainnya
+
+### Pagination buttons
+
+🏷️ Add pagination buttons on each pages : Tour Packages, Destinations, Adventures, Events.
