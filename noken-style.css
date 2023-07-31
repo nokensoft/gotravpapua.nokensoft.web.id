@@ -9,3 +9,17 @@ body {
 .full-width-header .rs-header .logo-part img {
     height: 100px;
 }
+
+
+.pagination .page-item .page-link {
+    color: green;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #c3e6cb;
+}
+
+.Page .page-item.active .page-link {
+    background-color: #28a745;
+    border-color: #28a745;
+}
