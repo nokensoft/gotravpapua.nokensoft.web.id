@@ -36,4 +36,4 @@ github pages: https://nokensoft.github.io/gotravpapua.nokensoft.web.id/
 
 ### Pagination buttons
 
-🏷️ Add pagination buttons on each pages : Tour Packages, Destinations, Adventures, Events.
+✅ Add pagination buttons on each pages : Tour Packages, Destinations, Adventures, Events.
