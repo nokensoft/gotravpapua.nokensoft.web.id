@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Gotrav - Admin Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/fav-gotrav-hd.png">
+
+    <!-- App css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar Start -->
+                <div class="navbar-custom">
+                    <a href="Dashboard.html" class="logo text-center d-none d-md-inline-block mr-2">
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-gotrav-hd.png" alt="" height="16">
+                        </span>
+                    </a>
+
+                    <button type="button" class="btn btn-sm btn-dark d-inline-block d-lg-none button-menu-mobile">Menu</button>
+    
+                    <span class="float-right">
+                        Welcome <strong>Admin!</strong>  <a href="#" class="ml-2">Logout</a>
+                    </span>
+                </div>
+                <!-- end Topbar -->
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    <div class="page-wrapper">
+                        <div class="left-sidebar">
+                            <div class="slimscroll-menu">
+                                <div class="list-group list-group-transparent mb-0">
+
+                                    <a href="Dashboard.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-flag-variant-outline"></i>
+                                        </span>Dashboard
+                                    </a>
+
+                                    <a href="Adventures.html" class="list-group-item list-group-item-action">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-apps"></i>
+                                        </span>Adventures
+                                    </a>
+
+                                    <a href="Destinations.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-square-edit-outline"></i>
+                                        </span>Destinations
+                                    </a>
+
+                                    <a href="Packages.html" class="list-group-item list-group-item-action active">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-square-edit-outline"></i>
+                                        </span>Packages
+                                    </a>
+
+                                    <a href="Events.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-widgets"></i>
+                                        </span>Events
+                                    </a>
+
+                                    <a href="Inbox.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-book-open-page-variant"></i>
+                                        </span>Inbox
+                                    </a>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end left-sidebar-->
+
+                        <div class="page-content">
+                            <div class="card ">
+                                <div class="card-body">
+
+                                    <h4 class="mt-0 mb-2 font-weight-bold">New Package</h4>
+
+                                    <p class="mt-3">We are using <a href="https://gulpjs.com/" target="_blank">gulp</a>
+                                        which allows to have complete automatation for
+                                        build flow. In case if you don't know - Gulp is a toolkit for automating
+                                        painful or time-consuming tasks in development workflow, so you can stop
+                                        messing around and build something. You can read it more about it <a
+                                            href="https://gulpjs.com/" target="_blank">here</a>. Please follow below
+                                        steps to install and setup all prerequisites:</p>
+
+                                        <div class="custom-form p-5 bg-white">
+                                            <div id="message"></div>
+                                            <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="title">Title</label>
+                                                            <input name="title" id="title" type="text" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="description">Description</label>
+                                                            <textarea name="description" id="description" rows="15" class="form-control"></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="itenerary">Itenerary</label>
+                                                            <textarea name="itenerary" id="itenerary" rows="5" class="form-control"></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="location">Location</label>
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8133512.942749398!2d135.6083135923328!3d-5.501216729418526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x684a0316a5130283%3A0xf0d0324058e7ea8!2sNew%20Guinea!5e0!3m2!1sen!2sid!4v1690554991333!5m2!1sen!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="faq">FAQ</label>
+                                                            <textarea name="faq" id="faq" rows="5" class="form-control"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                           <img src="assets/images/adventures/1.png">
+                                                        </div>
+
+                                                        
+
+                                                         <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col">
+                                                                  <input name="picture" id="picture" type="text" class="form-control">
+                                                                </div>
+                                                                <div class="col">
+                                                                    <button type="button" class="btn btn-secondary">Choose</button>
+                                                                </div>
+                                                            </div>
+                                                         </div>
+
+                                                        <div class="form-group">
+                                                                <button class="btn btn-lg dropdown-toggle rounded-0" type="button"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    Status
+                                                                </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="#">Draft</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Public</a></li>
+                                                                </ul>
+                                                        </div>
+                                                        
+                                                        
+                                                    </div>
+                                                </div>                                        
+                                                <!-- end row -->
+            
+                
+                                                <div class="row text-left">
+                                                    <div class="col">
+                                                        <button type="button" class="btn btn-secondary">Save</button>
+                                                        <button type="button" class="btn btn-secondary">Cancel</button>
+                                                    </div>
+                                                </div>
+                                                <!-- end row -->
+                                            </form>
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page-wrapper-->
+
+
+                    </div>
+
+                </div>
+                <!-- content -->
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <p>
+                                Copyright © 2023. All right reserved.
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- END wrapper -->
+
+        <script src="assets/js/app.min.js"></script>
+
+</body>
+
+</html>
